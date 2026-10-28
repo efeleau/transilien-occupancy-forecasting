@@ -65,23 +65,11 @@ Validation set: the last 14 days of the training period (15 April to 20 May), ne
 
 ## How to run
 
-**Data.** The data files (`Xtrain.csv`, `Ytrain.csv`, `Xtest.csv`) are not included in this repository. Download them from the [challenge page](https://challengedata.ens.fr/challenges/89) after creating a free account.
+**Data.** The data files (`Xtrain.csv`, `Ytrain.csv`, `Xtest.csv`) are not included in this repository. Download them from the [challenge page](https://challengedata.ens.fr/challenges/89).
 
-**Colab (recommended).** Click the badge above and run all cells. The notebook asks you to upload the three CSV files. No GPU is needed; it runs in about two minutes.
-
-**Locally:**
-```bash
-git clone https://github.com/efeleau/transilien-occupancy-forecasting.git
-cd transilien-occupancy-forecasting
-pip install -r requirements.txt
-# place Xtrain.csv, Ytrain.csv and Xtest.csv in this folder
-jupyter notebook SNCF.ipynb
-```
+**Colab (recommended).** Click the badge above and run all cells. The notebook asks you to upload the three CSV files. It runs in about two minutes.
 
 ## Background
 
-This project started as a course project in the Master's in Statistics & Machine Learning at Sorbonne Université. It was entirely reworked in 2026 with a time-based validation, baselines, an ablation study and a submission to the challenge.
+This project started as a course project in the Master's in Statistics & Machine Learning at Sorbonne Université.
 
-## License
-
-Code: MIT. Data: property of SNCF-Transilien, subject to the Challenge Data terms of use.

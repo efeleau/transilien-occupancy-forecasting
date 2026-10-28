@@ -1,6 +1,6 @@
 # Forecasting Train Occupancy on the Paris Transilien Network
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<efeleau>/transilien-occupancy-forecasting/blob/main/SNCF.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/efeleau/transilien-occupancy-forecasting/blob/main/SNCF.ipynb)
 
 This project predicts **how full a train will be at its next station**. It is based on the [SNCF-Transilien Data Challenge](https://challengedata.ens.fr/challenges/89) (Collège de France / ENS), with real passenger counts from infrared door sensors on Paris suburban trains.
 
@@ -71,7 +71,7 @@ Validation set: the last 14 days of the training period (15 April to 20 May), ne
 
 **Locally:**
 ```bash
-git clone https://github.com/<efeleau>/transilien-occupancy-forecasting.git
+git clone https://github.com/efeleau/transilien-occupancy-forecasting.git
 cd transilien-occupancy-forecasting
 pip install -r requirements.txt
 # place Xtrain.csv, Ytrain.csv and Xtest.csv in this folder

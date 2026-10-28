@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-github-username>/transilien-occupancy-forecasting/blob/main/SNCF.ipynb)
 
-This project predicts **how full a commuter train will be at its next station**, so that passengers waiting on the platform can be told in real time how crowded the arriving train is. It is based on the [SNCF-Transilien Data Challenge](https://challengedata.ens.fr/challenges/89) (Collège de France / ENS), with real passenger counts from infrared door sensors on Paris suburban trains.
+This project predicts **how full a train will be at its next station**. It is based on the [SNCF-Transilien Data Challenge](https://challengedata.ens.fr/challenges/89) (Collège de France / ENS), with real passenger counts from infrared door sensors on Paris suburban trains.
 
 The model beats SNCF's official benchmark by 15% and has an average error of **1.1 occupancy points on the hidden test set**.
 

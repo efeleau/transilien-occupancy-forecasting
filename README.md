@@ -9,7 +9,7 @@ This project predicts **how full a train will be at its next station**. It is ba
 
 The model beats SNCF's official benchmark by 15% and has an average error of **1.1 occupancy points on the hidden test set**.
 
-The notebook is available in two versions: [`SNCF_fr.ipynb`](SNCF_fr.ipynb) (French) and [`SNCF_en.ipynb`](SNCF_en.ipynb) (English), with the same code and results.
+The notebook is available in two versions: [`SNCF.ipynb`](SNCF.ipynb) (French) and [`SNCF_en.ipynb`](SNCF_en.ipynb) (English), with the same code and results.
 
 ## The problem
 

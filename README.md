@@ -1,12 +1,15 @@
 # Forecasting Train Occupancy on the Paris Transilien Network
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/efeleau/transilien-occupancy-forecasting/blob/main/SNCF.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/efeleau/transilien-occupancy-forecasting/blob/main/SNCF.ipynb) (French version)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/efeleau/transilien-occupancy-forecasting/blob/main/SNCF_en.ipynb) (English version)
+
 
 This project predicts **how full a train will be at its next station**. It is based on the [SNCF-Transilien Data Challenge](https://challengedata.ens.fr/challenges/89) (Collège de France / ENS), with real passenger counts from infrared door sensors on Paris suburban trains.
 
 The model beats SNCF's official benchmark by 15% and has an average error of **1.1 occupancy points on the hidden test set**.
 
-*The notebook is written and commented in French.*
+The notebook is available in two versions: [`SNCF_fr.ipynb`](SNCF_fr.ipynb) (French) and [`SNCF_en.ipynb`](SNCF_en.ipynb) (English), with the same code and results.
 
 ## The problem
 

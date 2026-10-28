@@ -1,0 +1,9 @@
+# Challenge data: not redistributable, download it from challengedata.ens.fr
+*.csv
+
+# Notebooks and Python
+.ipynb_checkpoints/
+__pycache__/
+
+# OS
+.DS_Store
